@@ -1,5 +1,7 @@
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 a {
   text-decoration: none;
@@ -31,4 +33,71 @@ body {
 }
 .nav-item .active {
   font-weight: bold;
+}
+.header {
+  display: flex;
+  gap: 36px;
+}
+.header-photo {
+  max-width: 300px;
+}
+.header-image {
+  width: 100%;
+  border-radius: 50%;
+}
+.header-text {
+  flex-grow: 1;
+  max-width: 550px;
+}
+.header-hello {
+  font-size: 48px;
+  font-weight: bold;
+}
+.header-about {
+  font-size: 24px;
+  line-height: 150%;
+}
+.header-about span {
+  color: #bf7506;
+  display: block;
+}
+.header-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+.social-list {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  padding-left: 0;
+}
+.social-item {
+  background-color: #bf7506;
+  color: #fff;
+  padding: 16px;
+  border-radius: 50%;
+  line-height: 14px;
+}
+.header-btn {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  margin: 0 15px;
+  border-bottom: 3px solid #bf7506;
+}
+.section-title {
+  font-size: 48px;
+  color: #bf7506;
+  text-transform: uppercase;
+}
+.work-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.work-item img {
+  max-width: 300px;
+  height: 450px;
+  overflow: hidden;
 }

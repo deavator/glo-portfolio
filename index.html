@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Дмитрий Васильев - веб-разработчик, фрилансер</title>
@@ -16,6 +14,7 @@
 
 <body>
     <div class="wrapper">
+        <!-- navbar -->
         <div class="navbar">
             <img src="./images/logo_header.svg" alt="logo">
             <nav class="navigatiton">
@@ -27,6 +26,38 @@
                 </ul>
             </nav>
         </div>
+        <!-- ./navbar -->
+
+        <header class="header">
+            <div class="header-photo">
+                <img class="header-image" src="/images/ava.png" alt="ava">
+            </div>
+            <div class="header-text">
+                <p class="header-hello">Привет!</p>
+                <p class="header-about"><span>Я веб-разработчик.</span>
+                    Меня зовут Дима Васильев<br> и я делаю сайты для людей и компаний</p>
+                <div class="header-footer">
+                    <ul class="social-list">
+                        <li class="social-item"><a href="#" class="social-link">in</a></li>
+                        <li class="social-item"><a href="#" class="social-link">tw</a></li>
+                        <li class="social-item"><a href="#" class="social-link">git</a></li>
+                        <li class="social-item"><a href="#" class="social-link">vk</a></li>
+                        <li class="social-item"><a href="#" class="social-link">yt</a></li>
+                    </ul>
+                    <a class="header-btn" href="#">Скачать резюме</a>
+                </div>
+            </div>
+            <!-- /.header-text -->
+        </header>
+        <section class="projects">
+            <h2 class="section-title">Мои проекты</h2>
+            <ul class="work-list">
+                <li class="work-item"><img src="/images/19306-referest.webp" alt=""></li>
+                <li class="work-item"><img src="/images/19309-referest.webp" alt=""></li>
+                <li class="work-item"><img src="/images/19313-referest.webp" alt=""></li>
+                <li class="work-item"><img src="/images/19322-referest.webp" alt=""></li>
+            </ul>
+        </section>
     </div>
 </body>
 

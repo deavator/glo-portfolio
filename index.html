@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/Awesome4.css">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Дмитрий Васильев - веб-разработчик, фрилансер</title>
@@ -19,45 +20,217 @@
             <img src="./images/logo_header.svg" alt="logo">
             <nav class="navigatiton">
                 <ul class="nav-list">
-                    <li class="nav-item"><a href="#" class="nav-link active">Главная</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Проекты</a></li>
+                    <li class="nav-item"><a href="#hello" class="nav-link active">Главная</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Проекты</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Обо мне</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Связаться</a></li>
+                    <li class="nav-item"><a href="#feedback" class="nav-link">Связаться</a></li>
                 </ul>
             </nav>
         </div>
         <!-- ./navbar -->
 
-        <header class="header">
+        <header class="header section" id="hello">
             <div class="header-photo">
                 <img class="header-image" src="/images/ava.png" alt="ava">
             </div>
             <div class="header-text">
                 <p class="header-hello">Привет!</p>
                 <p class="header-about"><span>Я веб-разработчик.</span>
-                    Меня зовут Дима Васильев<br> и я делаю сайты для людей и компаний</p>
+                    Меня зовут Оуэрен Фокс<br> и я делаю сайты для частных лиц и организаций</p>
                 <div class="header-footer">
                     <ul class="social-list">
-                        <li class="social-item"><a href="#" class="social-link">in</a></li>
-                        <li class="social-item"><a href="#" class="social-link">tw</a></li>
-                        <li class="social-item"><a href="#" class="social-link">git</a></li>
-                        <li class="social-item"><a href="#" class="social-link">vk</a></li>
-                        <li class="social-item"><a href="#" class="social-link">yt</a></li>
+                        <li class="social-item"><a href="#" class="social-link"><i class="fa fa-skype"></i></a>
+                        </li>
+                        <li class="social-item"><a href="#" class="social-link"><i class="fa fa-tumblr-square"></i></a>
+                        </li>
+                        <li class="social-item"><a href="#" class="social-link"><i class="fa fa-github-square"></i></a>
+                        </li>
+                        <li class="social-item"><a href="#" class="social-link"><i
+                                    class="fa fa-linkedin-square"></i></a>
+                        </li>
+                        <li class="social-item"><a href="#" class="social-link"><i class="fa fa-youtube-play"></i></a>
+                        </li>
                     </ul>
-                    <a class="header-btn" href="#">Скачать резюме</a>
+                    <a class="header-btn" href="#" download=""><i class="fa fa-paperclip pr8"></i> Резюме</a>
                 </div>
             </div>
             <!-- /.header-text -->
         </header>
-        <section class="projects">
+
+        <section class="projects section" id="projects">
             <h2 class="section-title">Мои проекты</h2>
             <ul class="work-list">
-                <li class="work-item"><img src="/images/19306-referest.webp" alt=""></li>
-                <li class="work-item"><img src="/images/19309-referest.webp" alt=""></li>
-                <li class="work-item"><img src="/images/19313-referest.webp" alt=""></li>
-                <li class="work-item"><img src="/images/19322-referest.webp" alt=""></li>
+                <li class="work-item">
+                    <div class="item-img">
+                        <img src="/images/19306-referest.webp" alt="проект 1">
+                    </div>
+                    <div class="item-info">
+                        <h3 class="item-title">Мобильное приложение</h3>
+                        <ul class="tag-list">
+                            <li class="tag-item">HTML</li>
+                            <li class="tag-item">CSS</li>
+                            <li class="tag-item">JS</li>
+                            <li class="tag-item">Git</li>
+                            <li class="tag-item">Vitejs</li>
+                        </ul>
+                        <p class="item-text">Далеко-далеко за словесными горами в стране гласных и согласных живут,
+                            рыбные
+                            тексты. Домах, рекламных снова знаках вопрос пунктуация взгляд переулка. Даже, ты!
+                        </p>
+                        <ul class="item-list">
+                            <li class="item-links"><a href="" class="item-link"><i class="fa fa-chevron-left"></i><i
+                                        class="fa fa-chevron-right pr5"></i>Код</a></li>
+                            <li class="item-links"><a href="" class="item-link"><i class="fa fa-check pr5"></i>Демо</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="work-item">
+                    <div class="item-img">
+                        <img src="/images/19309-referest.webp" alt="проект 1">
+                    </div>
+                    <div class="item-info">
+                        <h3 class="item-title">Одностраничный промо</h3>
+                        <ul class="tag-list">
+                            <li class="tag-item">HTML</li>
+                            <li class="tag-item">CSS</li>
+                            <li class="tag-item">JS</li>
+                        </ul>
+                        <p class="item-text">Далеко-далеко за словесными горами в стране гласных и согласных живут
+                            рыбные тексты. Взобравшись коварный рыбного все дороге!
+                        </p>
+                        <ul class="item-list">
+                            <li class="item-links"><a href="" class="item-link"><i class="fa fa-chevron-left"></i><i
+                                        class="fa fa-chevron-right pr5"></i>Код</a></li>
+                            <li class="item-links"><a href="" class="item-link"><i class="fa fa-check pr5"></i>Демо</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="work-item">
+                    <div class="item-img">
+                        <img src="/images/19313-referest.webp" alt="проект 3">
+                    </div>
+                    <div class="item-info">
+                        <h3 class="item-title">Корпоративный сайт</h3>
+                        <ul class="tag-list">
+                            <li class="tag-item">HTML</li>
+                            <li class="tag-item">CSS</li>
+                            <li class="tag-item">JS</li>
+                            <li class="tag-item">Vitejs</li>
+                        </ul>
+                        <p class="item-text">Далеко-далеко за словесными горами в стране гласных, и согласных живут
+                            рыбные тексты. Прямо алфавит собрал пояс, но ipsum она продолжил послушавшись вопроса,
+                            оксмокс подзаголовок даль, бросил дал?
+                        </p>
+                        <ul class="item-list">
+                            <li class="item-links"><a href="" class="item-link"><i class="fa fa-chevron-left"></i><i
+                                        class="fa fa-chevron-right pr5"></i>Код</a></li>
+                            <li class="item-links"><a href="" class="item-link"><i class="fa fa-check pr5"></i>Демо</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="work-item">
+                    <div class="item-img">
+                        <img src="/images/19322-referest.webp" alt="проект 4">
+                    </div>
+                    <div class="item-info">
+                        <h3 class="item-title">Приложение для телефона</h3>
+                        <ul class="tag-list">
+                            <li class="tag-item">HTML</li>
+                            <li class="tag-item">CSS</li>
+                            <li class="tag-item">Vitejs</li>
+                        </ul>
+                        <p class="item-text">Далеко-далеко за словесными горами в стране гласных и согласных, живут
+                            рыбные тексты.
+                        </p>
+                        <ul class="item-list">
+                            <li class="item-links"><a href="" class="item-link"><i class="fa fa-chevron-left"></i><i
+                                        class="fa fa-chevron-right pr5"></i>Код</a></li>
+                            <li class="item-links"><a href="" class="item-link"><i class="fa fa-check pr5"></i>Демо</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="work-item">
+                    <div class="item-img">
+                        <img src="/images/19306-referest.webp" alt="проект 1">
+                    </div>
+                    <div class="item-info">
+                        <h3 class="item-title">Мобильное приложение</h3>
+                        <ul class="tag-list">
+                            <li class="tag-item">HTML</li>
+                            <li class="tag-item">CSS</li>
+                            <li class="tag-item">JS</li>
+                            <li class="tag-item">Git</li>
+                            <li class="tag-item">Vitejs</li>
+                        </ul>
+                        <p class="item-text">Далеко-далеко за словесными горами в стране гласных и согласных живут,
+                            рыбные
+                            тексты. Домах, рекламных снова знаках вопрос пунктуация взгляд переулка. Даже, ты!
+                        </p>
+                        <ul class="item-list">
+                            <li class="item-links"><a href="" class="item-link"><i class="fa fa-chevron-left"></i><i
+                                        class="fa fa-chevron-right pr5"></i>Код</a></li>
+                            <li class="item-links"><a href="" class="item-link"><i class="fa fa-check pr5"></i>Демо</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="work-item">
+                    <div class="item-img">
+                        <img src="/images/19309-referest.webp" alt="проект 6">
+                    </div>
+                    <div class="item-info">
+                        <h3 class="item-title">Мобильное приложение</h3>
+                        <ul class="tag-list">
+                            <li class="tag-item">HTML</li>
+                            <li class="tag-item">CSS</li>
+                            <li class="tag-item">JS</li>
+                            <li class="tag-item">Git</li>
+                            <li class="tag-item">Vitejs</li>
+                        </ul>
+                        <p class="item-text">Далеко-далеко за словесными горами в стране гласных и согласных живут,
+                            рыбные
+                            тексты. Домах, рекламных снова знаках вопрос пунктуация взгляд переулка. Даже, ты!
+                        </p>
+                        <ul class="item-list">
+                            <li class="item-links"><a href="" class="item-link"><i class="fa fa-chevron-left"></i><i
+                                        class="fa fa-chevron-right pr5"></i>Код</a></li>
+                            <li class="item-links"><a href="" class="item-link"><i class="fa fa-check pr5"></i>Демо</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
             </ul>
         </section>
+
+        <section class="feedback section" id="feedback">
+            <h2 class="section-title">Готов обсудить проект...</h2>
+            <div class="feedback-container">
+                <form class="feedback-form" action="#">
+                    <label class="input-label" for="UserName">Имя
+                    </label>
+                    <input type="text" class="input" id="UserName">
+
+                    <label class="input-label" for="UserEmail">Email
+                    </label>
+                    <input type="email" class="input" id="UserEmail">
+
+                    <label class="input-label" for="UserMessage">Сообщение
+                    </label>
+                    <textarea class="input" cols="30" rows="10" id="UserMessage"></textarea>
+
+                    <button class="feedback-submit" type="submit">
+                        <i class="fa fa-send-o pr8"></i>
+                        Отправить
+                    </button>
+                </form>
+                <div class="feedback-image"></div>
+            </div>
+        </section>
+
     </div>
 </body>
 
